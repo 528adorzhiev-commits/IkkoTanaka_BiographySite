@@ -84,9 +84,43 @@ body {
     max-width: 600px;
 }
 
-.itr-sub {
+.intro-subtitle {
     font-size: 1.2rem;
     font-weight: 500;
     color: black;
     margin-top: 1rem;
+}
+
+.tanaka-port {
+    display: block;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.biography-section {
+    background-color: #f3eee5;
+    padding: 2rem 0;
+}
+
+.section-heading {
+    font-size: 3rem;
+    font-weight: 900;
+    color:black;
+    margin-bottom: 2.5rem;
+    letter-spacing: -1px;
+}
+
+.biography-section h3 {
+    font-size: 1.4rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.biography-section p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #292929;
 }
