@@ -1,5 +1,5 @@
 body {
-    background-color: #b28b6c;
+    background-color: #f3eee5;
     font-family: "Helvetica Neue", Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -86,6 +86,12 @@ body {
 
 
 
+
+
+
+
+
+
 .intro-subtitle {
     font-size: 1.2rem;
     font-weight: 500;
@@ -146,6 +152,15 @@ body {
 }
 
 
+
+
+
+
+
+
+
+
+
 .artwork-card {
     height: 100%;
     background-color: #ffffff;
@@ -188,4 +203,46 @@ body {
 
 .artwork-info p {
     line-height: 1.7;
+}
+
+
+
+
+
+
+
+
+
+.research-section {
+    background-color: #b28b6c;
+    padding: 2rem 0;
+}
+
+.research-intro {
+    max-width: 650px;
+    line-height: 1.8;
+    margin-bottom: 2.5rem;
+}
+
+.research-item {
+    height: 100%;
+    padding: 1.5rem;
+    background-color: #f3eee5;
+}
+
+.research-item h3 {
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.research-item p {
+    line-height: 1.7;
+}
+
+.research-item a {
+    color: #000000;
+    font-weight: 700;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
 }
