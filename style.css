@@ -10,7 +10,6 @@ body {
     background-color: #000000;
     border-radius: 0;
     padding: 0;
-    border-bottom: 4px solid #E63946; 
 }
 
 
@@ -150,7 +149,6 @@ body {
 .artwork-card {
     height: 100%;
     background-color: #ffffff;
-    border-bottom: 5px solid #e63946;
 }
 
 .artwork-image {
