@@ -14,6 +14,7 @@ body {
 }
 
 
+
 .tanaka-brand {
     display: flex;
     align-items: center;
@@ -84,6 +85,8 @@ body {
     max-width: 600px;
 }
 
+
+
 .intro-subtitle {
     font-size: 1.2rem;
     font-weight: 500;
@@ -99,10 +102,13 @@ body {
     margin: 0 auto;
 }
 
+
 .biography-section {
     background-color: #f3eee5;
     padding: 2rem 0;
 }
+
+
 
 .section-heading {
     font-size: 3rem;
@@ -110,17 +116,78 @@ body {
     color:black;
     margin-bottom: 2.5rem;
     letter-spacing: -1px;
+    text-transform: uppercase;
 }
 
 .biography-section h3 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: 800;
-    text-transform: uppercase;
     margin-bottom: 1rem;
 }
+
 
 .biography-section p {
     font-size: 1rem;
     line-height: 1.8;
     color: #292929;
+}
+
+
+
+.gallery-section {
+    background-color: #f3eee5;
+    padding: 2rem 0;
+}
+
+.gallery-intro {
+    max-width: 600px;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 2.5rem;
+}
+
+
+.artwork-card {
+    height: 100%;
+    background-color: #ffffff;
+    border-bottom: 5px solid #e63946;
+}
+
+.artwork-image {
+    width: 100%;
+    height: 420px;
+    object-fit: contain;
+    background-color: #e7e2d9;
+    display: block;
+}
+
+
+
+.artwork-info {
+    padding: 1.5rem;
+}
+
+.artwork-number {
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #e63946;
+}
+
+
+
+
+.artwork-info h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 0.4rem;
+}
+
+.artwork-year {
+    font-weight: 700;
+    color: #666666;
+}
+
+.artwork-info p {
+    line-height: 1.7;
 }
